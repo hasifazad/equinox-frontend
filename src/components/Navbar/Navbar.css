@@ -1,0 +1,56 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #0f172a;
+    position: sticky;
+    top: 0;
+
+    padding: 20px 60px 20px 40px;
+
+    font-weight: bold;
+
+    color: white;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    border: 1px solid;
+
+    padding: 5px 20px;
+    border-radius: 10px;
+
+    color: white;
+
+}
+
+li:hover {
+    background-color: white;
+    color: #0f172a;
+}
+
+.title {
+    font-size: 1.5rem;
+
+}
+
+.menu>ul {
+    display: flex;
+    gap: 20px;
+
+    align-items: center;
+}
+
+.menu button {
+    padding: 10px;
+
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}

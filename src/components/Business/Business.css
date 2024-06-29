@@ -1,0 +1,51 @@
+.box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 30px;
+
+    flex-direction: column;
+
+    gap: 20px;
+
+    width: 100vw;
+
+}
+
+.box-container>div:nth-child(1) {
+    display: flex;
+    justify-content: end;
+}
+
+.create,.edit {
+    border: 1px solid;
+
+    color: white;
+    background-color: rgb(35, 156, 200);
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+
+.edit{
+    
+    background-color: rgb(3, 160, 79);
+}
+
+table {
+    border-collapse: collapse;
+
+    color: wheat;
+
+}
+
+table tr {
+    border: 3px solid white;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid white;
+}
